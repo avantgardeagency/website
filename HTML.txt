@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avant-Garde Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to Avant-Garde Agency</h1>
+      <p>Specializing in architectural design and workplace fit out</p>
+      <a href="#contact" class="btn">Contact us</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>We offer a range of services to cater to your architectural design and workplace fit out needs.</p>
+      <ul>
+        <li>Architectural Design</li>
+        <li>Interior Design</li>
+        <li>Workplace Fit Out</li>
+        <li>Project Management</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Our Portfolio</h2>
+      <!-- Add your portfolio images and descriptions here -->
+      <div class="portfolio-item">
+        <img src="portfolio-image1.jpg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of project 1</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="portfolio-image2.jpg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of project 2</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us to discuss your architectural design and workplace fit out requirements.</p>
+      <form action="contact-form-handler.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Avant-Garde Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>
